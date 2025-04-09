@@ -1,0 +1,1 @@
+ALTER TABLE "students" ADD COLUMN "education_fees" integer DEFAULT 0;

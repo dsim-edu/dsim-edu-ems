@@ -1,0 +1,1 @@
+ALTER TABLE "students" DROP CONSTRAINT "students_gen_roll_unique";

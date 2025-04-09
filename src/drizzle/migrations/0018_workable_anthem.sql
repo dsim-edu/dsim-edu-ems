@@ -1,0 +1,1 @@
+ALTER TABLE "students" ADD COLUMN "date_of_birth" date DEFAULT '2025-04-01' NOT NULL;
