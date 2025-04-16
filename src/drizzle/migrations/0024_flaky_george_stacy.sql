@@ -1,1 +1,0 @@
-ALTER TABLE "salary_payments" ADD COLUMN "updatedAt" timestamp with time zone DEFAULT now() NOT NULL;

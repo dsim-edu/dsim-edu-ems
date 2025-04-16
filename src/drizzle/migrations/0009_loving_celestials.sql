@@ -1,1 +1,0 @@
-ALTER TABLE "teachers" ADD COLUMN "education_des" text DEFAULT 'Master in Arts, National university' NOT NULL;

@@ -1,1 +1,0 @@
-ALTER TABLE "teachers" DROP CONSTRAINT "teachers_email_unique";

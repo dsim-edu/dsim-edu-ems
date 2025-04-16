@@ -1,6 +1,0 @@
-CREATE TYPE "public"."course" AS ENUM('Moqtob', 'Qirat', 'Kitab', 'Hifz', 'Tajweed', 'Sarf', 'Nahw', 'Hadith', 'Fiqh', 'Aqidah', 'Tarikh (Islamic History)', 'Balagat', 'Mantiq', 'Usul al-Fiqh', 'Tafsir', 'Bangla', 'English', 'Gonit (Mathematics)', 'Biggan (Science)', 'Samajik Biggan (Social Science)', 'Computer', 'Business Studies', 'Sadharon Gyan (General Knowledge)');--> statement-breakpoint
-CREATE TYPE "public"."session_range" AS ENUM('no_session', 'ramadan_1444_ramadan_1445', 'ramadan_1445_ramadan_1446', 'ramadan_1446_ramadan_1447', 'ramadan_1447_ramadan_1448', 'ramadan_1448_ramadan_1449', 'ramadan_1449_ramadan_1450', 'ramadan_1450_ramadan_1451', 'ramadan_1451_ramadan_1452');--> statement-breakpoint
-ALTER TABLE "students" ADD COLUMN "course" "course" DEFAULT 'Moqtob' NOT NULL;--> statement-breakpoint
-ALTER TABLE "students" ADD COLUMN "session_range" "session_range" DEFAULT 'ramadan_1445_ramadan_1446' NOT NULL;--> statement-breakpoint
-DROP TYPE "public"."class";--> statement-breakpoint
-DROP TYPE "public"."session";

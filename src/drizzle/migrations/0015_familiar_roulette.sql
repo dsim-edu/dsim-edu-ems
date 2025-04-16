@@ -1,1 +1,0 @@
-ALTER TABLE "students" DROP COLUMN "boarding_fees";

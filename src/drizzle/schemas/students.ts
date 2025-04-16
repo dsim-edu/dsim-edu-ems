@@ -36,7 +36,7 @@ export const students = pgTable("students", {
   gender: genderEnum("gender").notNull(),
   sessionRange: sessionRangeEnum("session_range")
     .notNull()
-    .default("ramadan_1445_ramadan_1446"),
+    .default("january_2025_december_2026"),
   address: text("address"),
   physicalCondition: text("physical_condition").default("normal"),
   admissionTimePaid: integer("admission_time_paid").default(0),

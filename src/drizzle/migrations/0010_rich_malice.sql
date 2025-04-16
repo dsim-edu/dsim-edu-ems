@@ -1,1 +1,0 @@
-ALTER TABLE "teachers" ALTER COLUMN "education_des" DROP DEFAULT;
