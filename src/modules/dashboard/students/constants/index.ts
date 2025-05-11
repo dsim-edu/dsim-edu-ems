@@ -6,6 +6,16 @@ export const PASS_STATUS_ARRAY = ["pass", "fail", "null"] as const;
 
 // // Constants for the enums
 export const COURSE_ARRAY = [
+  "taishir",
+  "Mizan",
+  "Nahbemir",
+  "Hedayetun nahu",
+  "Kafiya",
+  "Shorhe jami",
+  "Shorhe bekaya",
+  "Jalalain ",
+  "Meshkat",
+  "Dawra",
   "Moqtob",
   "Qirat",
   "Kitab",

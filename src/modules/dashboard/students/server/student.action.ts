@@ -178,7 +178,10 @@ export const getStudentsForTable = async ({
         studentQuery.orderBy(sortInfo);
       }
     }
-    const allStudents = await studentQuery.limit(limit).offset(offset);
+    const allStudents = await studentQuery
+      .limit(limit)
+      .offset(offset)
+      .orderBy(students.genRoll);
 
     const [{ studentCount }] = await db
       .select({ studentCount: count() })

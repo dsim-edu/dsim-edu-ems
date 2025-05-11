@@ -58,7 +58,7 @@ const ProvideResultModal = ({
           <DialogTitle></DialogTitle>
           <div className="flex flex-col items-center justify-center gap-4">
             <Image
-              src={imageUrl ?? "/muslim-user.png"}
+              src={imageUrl ? imageUrl : "/muslim-user.png"}
               height={80}
               width={80}
               alt="muslim-user"
