@@ -12,7 +12,7 @@ export function getMonthsBetweenRange(
   const startYear = parseInt(match[1], 10);
 
   const months: string[] = [];
-  let currentYear = startYear;
+  const currentYear = startYear;
 
   for (const month of ENGLISH_MONTHS) {
     months.push(`${month} ${currentYear}`);
