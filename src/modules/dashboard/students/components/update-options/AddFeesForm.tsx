@@ -20,7 +20,7 @@ import { showMessageOrError } from "@/lib/show-message-error";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useForm } from "react-hook-form";
-import { ISLAMIC_MONTHS, ISLAMIC_YEARS_ARR } from "../../constants";
+import { ENGLISH_MONTHS, ISLAMIC_YEARS_ARR } from "../../constants";
 import { getMonthsBetweenRange } from "../../helper";
 import { studentFeesSchema } from "../../schema/fees.schema";
 import { createStudentFees } from "../../server/fees.action";
@@ -140,7 +140,7 @@ export default function AddFeesForm({
                     <SelectContent>
                       {getMonthsBetweenRange(session).length === 0 ? (
                         <div>
-                          {ISLAMIC_MONTHS.map((item) => (
+                          {ENGLISH_MONTHS.map((item) => (
                             <SelectItem key={item} value={item}>
                               {item}
                             </SelectItem>

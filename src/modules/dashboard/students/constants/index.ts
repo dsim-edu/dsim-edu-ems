@@ -78,6 +78,20 @@ export const ISLAMIC_MONTHS = [
   "Rajab",
   "Sha'ban",
 ] as const;
+export const ENGLISH_MONTHS = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+] as const;
 
 export const ISLAMIC_YEARS_ARR = [
   "1444",
