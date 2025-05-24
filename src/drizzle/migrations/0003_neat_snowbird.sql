@@ -1,0 +1,2 @@
+CREATE TYPE "public"."session_range" AS ENUM('no_session', 'january_2023_december_2023', 'january_2024_december_2024', 'january_2025_december_2025', 'january_2026_december_2026', 'january_2027_december_2027', 'january_2028_december_2028', 'january_2029_december_2029', 'january_2030_december_2030');--> statement-breakpoint
+ALTER TABLE "students" ADD COLUMN "session_range" "session_range" DEFAULT 'january_2025_december_2025' NOT NULL;

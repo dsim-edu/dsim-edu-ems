@@ -54,14 +54,14 @@ export const COURSE_ARRAY = [
 // ] as const;
 export const SESSION_RANGES = [
   "no_session",
-  "january_2023_december_2024",
-  "january_2024_december_2025",
-  "january_2025_december_2026",
-  "january_2026_december_2027",
-  "january_2027_december_2028",
-  "january_2028_december_2029",
-  "january_2029_december_2030",
-  "january_2030_december_2031",
+  "january_2023_december_2023",
+  "january_2024_december_2024",
+  "january_2025_december_2025",
+  "january_2026_december_2026",
+  "january_2027_december_2027",
+  "january_2028_december_2028",
+  "january_2029_december_2029",
+  "january_2030_december_2030",
 ] as const;
 
 export const ISLAMIC_MONTHS = [

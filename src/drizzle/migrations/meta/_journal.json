@@ -15,6 +15,20 @@
       "when": 1746980261711,
       "tag": "0001_fearless_guardian",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1748048040064,
+      "tag": "0002_red_sharon_ventura",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1748048151153,
+      "tag": "0003_neat_snowbird",
+      "breakpoints": true
     }
   ]
 }
